@@ -4,6 +4,7 @@ from openai import OpenAI
 from starlette.middleware.cors import CORSMiddleware
 import requests
 
+
 app = FastAPI()
 
 app.add_middleware(
